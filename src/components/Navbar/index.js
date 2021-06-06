@@ -8,31 +8,34 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
+  Logo,
 } from "./styles";
-const Navbar = ({toggle}) => {
+const Navbar = ({ toggle }) => {
   return (
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo>Minha Logo</NavLogo>
+          <NavLogo>
+            <Logo src="/logo.png" />
+          </NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to='Inicio'>Inicio</NavLinks>
+              <NavLinks to="Inicio">Inicio</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='Sobre'>Sobre</NavLinks>
+              <NavLinks to="Sobre">Sobre</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='habilidades'>Habilidades</NavLinks>
+              <NavLinks to="habilidades">Habilidades</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='experiencias'>Experiencias</NavLinks>
+              <NavLinks to="experiencias">Experiencias</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='contatos'>Contatos</NavLinks>
+              <NavLinks to="contatos">Contatos</NavLinks>
             </NavItem>
           </NavMenu>
         </NavbarContainer>

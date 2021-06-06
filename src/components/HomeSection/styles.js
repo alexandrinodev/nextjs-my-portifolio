@@ -27,7 +27,11 @@ export const Video = styled.video`
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  background: #232a34;
+`;
+
+export const Img = styled.img`
+  width: 100%;
+  height: 100%;
 `;
 
 export const HomeContent = styled.div`
@@ -38,10 +42,11 @@ export const HomeContent = styled.div`
   padding: 8px 24px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  margin-left: 100px;
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
+    margin-left: 0px;
   }
 `;
 
@@ -49,23 +54,29 @@ export const ContentText = styled.div`
   line-height: 5px;
 `;
 
+export const HomeH1 = styled.h1`
+  font-size: 3rem;
+
+  @media screen and (max-width: 425px) {
+    font-size: 2.5rem;
+  }
+`;
+
 export const HomeParagrafo = styled.p`
   display: flex;
   flex-direction: column;
 `;
 
-export const HomeH1 = styled.h1`
-  font-size: 40px;
-  @media screen and (max-width: 320px) {
-    font-size: 30px;
-  }
-`;
-
 export const HomeFerramenta = styled.p`
   font-size: 36px;
+  color: #20b2aa;
 
   @media screen and (max-width: 768px) {
-    font-size: 30px;
+    font-size: 2rem;
+  }
+
+  @media screen and (max-width: 425px) {
+    line-height: 30px;
   }
 
   @media screen and (max-width: 320px) {

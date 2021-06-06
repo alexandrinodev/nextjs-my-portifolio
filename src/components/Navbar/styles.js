@@ -42,6 +42,18 @@ export const NavLogo = styled.a`
   text-decoration: none;
 `;
 
+export const Logo = styled.img`
+  width: 190px;
+  background-color: rgba(255,255,255,0.7);
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 8px;
+
+  @media screen and (max-width: 425px) {
+    width: 150px;
+  }
+`;
+
 export const MobileIcon = styled.nav`
   display: none;
 
@@ -86,8 +98,7 @@ export const NavLinks = styled(LinkS)`
   }
 
   &:hover {
-      border-bottom: 3px solid #01bf71;
-      transition: 0.3s ease-in-out;
-      
+    border-bottom: 3px solid #01bf71;
+    transition: 0.3s ease-in-out;
   }
 `;

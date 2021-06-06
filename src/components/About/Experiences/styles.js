@@ -62,7 +62,9 @@ export const DataLabel = styled.p`
   font-weight: bold;
 `;
 
-export const DataDay = styled.p``;
+export const DataDay = styled.p`
+  font-size: 1rem;
+`;
 
 export const CardDescription = styled.p`
   padding: 0 20px;

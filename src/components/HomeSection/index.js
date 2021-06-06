@@ -9,6 +9,7 @@ import {
   HomeP,
   ContentImg,
   HomeParagrafo,
+  Img
 } from "./styles";
 //import Video from '../../../public/video.mp4'
 
@@ -16,17 +17,18 @@ function HomeSection() {
   return (
     <HomeContainer>
       <HomeVideo>
-        <Video autoPlay loop muted src="/video.mp4" type="video/mp4" />
+        {/*<Video autoPlay loop muted src="/video.mp4" type="video/mp4" />*/}
+        <Img src="/home.jpg" />
       </HomeVideo>
       <HomeContent>
         <ContentText>
-          <HomeH1>Desenvolvedor</HomeH1>
+          <HomeH1>Alex Alexandrino</HomeH1>
           <HomeParagrafo>
-            <HomeFerramenta>React Js e Node JS</HomeFerramenta>
-            <HomeFerramenta>Front-End</HomeFerramenta>
+            <HomeFerramenta>Desenvolvedor Web e Mobile JR</HomeFerramenta>
+            <HomeFerramenta>React.JS, React Native e Next.JS</HomeFerramenta>
           </HomeParagrafo>
         </ContentText>
-        <ContentImg src="/home2.svg"></ContentImg>
+        {/*<ContentImg src="/home2.svg"></ContentImg>*/}
       </HomeContent>
     </HomeContainer>
   );

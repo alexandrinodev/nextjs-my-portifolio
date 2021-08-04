@@ -8,7 +8,7 @@ export const Title = styled.h1`
   bottom: 0;
 
   text-align: center;
-  padding: 30px 0;
+  margin: 30px 0;
   font-size: 2.5rem;
   color: #A9A9A9;
   font-weight: bold;

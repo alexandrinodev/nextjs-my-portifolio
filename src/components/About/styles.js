@@ -1,10 +1,32 @@
 import styled from "styled-components";
 
+//Primeira Parte
+
+export const Container = styled.div`
+  display: flex;
+  justify-content: space-evenly;
+`;
+export const Eu = styled.img`
+  height: 350px;
+  margin-left: 150px;
+  border-radius: 8px;
+`;
+
+export const Info = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+`;
+
+export const Description = styled.p`
+  font-size: 1.2rem;
+  color: #808080;
+`;
+
 export const AboutContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1100px;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -22,25 +44,10 @@ export const AboutContainer = styled.div`
   @media screen and (max-width: 425px) {
     grid-template-columns: repeat(3, 1fr);
   }
-  
+
   @media screen and (max-width: 375px) {
     grid-template-columns: repeat(2, 1fr);
     margin-right: 10px;
-  }
-`;
-
-export const Subtitle = styled.p`
-  text-align: justify;
-  font-size: 1.2rem;
-  color: #808080;
-
-  max-width: 1100px;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-
-  @media screen and (max-width: 768px) {
-    width: 80%;
   }
 `;
 

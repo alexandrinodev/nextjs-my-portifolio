@@ -1,13 +1,10 @@
 import {
   HomeContainer,
-  HomeVideo,
-  Video,
+  HomeBackground,
   HomeContent,
   ContentText,
   HomeH1,
   HomeFerramenta,
-  HomeP,
-  ContentImg,
   HomeParagrafo,
   Img
 } from "./styles";
@@ -16,10 +13,9 @@ import {
 function HomeSection() {
   return (
     <HomeContainer>
-      <HomeVideo>
-        {/*<Video autoPlay loop muted src="/video.mp4" type="video/mp4" />*/}
+      <HomeBackground>
         <Img src="/home.jpg" />
-      </HomeVideo>
+      </HomeBackground>
       <HomeContent>
         <ContentText>
           <HomeH1>Alex Alexandrino</HomeH1>

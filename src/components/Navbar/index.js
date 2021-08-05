@@ -10,11 +10,13 @@ import {
   NavLinks,
   Logo,
 } from "./styles";
-const Navbar = ({ toggle }) => {
+
+const Navbar = ({ toggle, black }) => {
+
   return (
     <>
-      <Nav>
-        <NavbarContainer>
+      <Nav className={black ? 'black' : ''} >
+        <NavbarContainer >
           <NavLogo>
             <Logo src="/logo.png" />
           </NavLogo>

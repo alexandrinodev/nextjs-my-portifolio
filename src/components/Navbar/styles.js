@@ -103,3 +103,8 @@ export const NavLinks = styled(LinkS)`
     transition: 0.3s ease-in-out;
   }
 `;
+
+
+export const Black = styled.nav`
+    background: #000;
+`

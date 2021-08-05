@@ -8,10 +8,11 @@ export const Title = styled.h1`
   bottom: 0;
 
   text-align: center;
-  margin: 30px 0;
+  padding: 30px;
   font-size: 2.5rem;
   color: #A9A9A9;
   font-weight: bold;
+  font-family: "Roboto";
 `;
 
 export default Title;
